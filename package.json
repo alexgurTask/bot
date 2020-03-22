@@ -1,0 +1,21 @@
+{
+  "name": "tgbot",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "alex",
+  "license": "ISC",
+  "dependencies": {
+    "jsforce": "^1.9.3",
+    "nforce": "^1.12.2",
+    "nodemon": "^2.0.2",
+    "telegraf": "^3.36.0",
+    "telegraf-calendar-telegram": "^1.5.7"
+  },
+  "devDependencies": {}
+}
